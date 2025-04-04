@@ -4,7 +4,7 @@ pensize(2)
 color("green")
 left(90)
 backward(100)
-speed(00)
+speed(100)
 shape("turtle")
 
 def tree(i):
