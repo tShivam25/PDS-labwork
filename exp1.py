@@ -1,15 +1,15 @@
 #float to int
 num=3.85
-int_num=int(num)
-print (int_num)
-print(type(int_num))
+b=int(num)
+print(b)
+print(type(b))
 
 
 # int to float
-a=10
+a=9
 b=float(a)
-print(a)
-print(type(a))
+print(b)
+print(type(b))
 
 #number to string
 num=100
@@ -19,4 +19,6 @@ print(type(a))
 
 #question
 age=int(input("how old are you ?"))
-print("in 5 years ,your age will be ",age + 5)
+#print("in 5 years ,your age will be ",age + 5) #pops error cause we are adding  a int to str
+#correct way
+print("in 5 years your age will be ",int(age)+5)
